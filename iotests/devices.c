@@ -204,7 +204,7 @@ void openDevices(deviceDetails *devs, size_t numDevs, const size_t sendTrim, siz
     if (devs[i].isBD == 1) {
       /* -- From a Google search
 	 The physical block size is the smallest size the device can
-	 handle atomically. The smalles block it can handle without needing
+	 handle atomically. The smallest block it can handle without needing
 	 to do a read-modify-write cycle. Applications should try to write
 	 in multiples of that (and they do) but are not required to.
 
